@@ -35,4 +35,3 @@ Route::post('/product/{id}/update', 'CatalogController@updateProductSubmit')->na
 
 
 
-Route::get('/home', 'HomeController@index')->name('home');
