@@ -3,7 +3,6 @@
 @section('title')Каталог товаров@endsection
 
 @section('content') 
-<a href="{{ route('login') }}">Login</a>
 	  <div class="grid">
 	  	@foreach($dataProduct as $el)
 	    <div class="card mb-4 shadow-sm">
